@@ -8,10 +8,10 @@ from datetime import datetime
 video_capture= cv2.VideoCapture(0)
 
 #Loading the known faces
-number_1=face_recognition.load_image_file("faces/1.jpg")
+number_1=face_recognition.load_image_file("faces\img1.jpg")
 encoded_number1=face_recognition.face_encodings(number_1)[0]
 
-number_2=face_recognition.load_image_file("faces/2.jpg")
+number_2=face_recognition.load_image_file("faces\img2.jpg")
 encoded_number2=face_recognition.face_encodings(number_2)[0]
 
 known_face_encoadings=[encoded_number1,encoded_number2]

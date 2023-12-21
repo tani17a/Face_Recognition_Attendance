@@ -1,0 +1,17 @@
+Algorithm
+1.start
+2. start with loading of images
+3. encode thoes images and store those in another list 
+4. store the name sequence by sequence in a list and copy the list as the total number of students that can be used later
+5. start vedio capturing
+6. make the frames of the captured vedio and make short frame of those by reducing the size
+7. encode those frames and store the result
+8. start a while loop to compare both the encodings that are of loaded images or faces and frame captured by webcam
+9. find out the difference of the embedddings and store the index with minimum difference between the encodings 
+10. use the above index to find out the name of the student by using the above total name list of the names
+11. we got the name of the student ,delete that name from the list of total student
+12. create a file of the current date name and store the present student name with the current time
+13. to show the name of present student on the cam window start by making conditions for font and add to that of cv2.putext function
+14. using waitkey set condition to exit the web comp
+15. now close the file and free the webcam 
+16. end
